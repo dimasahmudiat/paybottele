@@ -33,10 +33,10 @@
     }
   ],
   "env": {
-    "DB_HOST": "localhost",
-    "DB_USER": "dimc6971_Dimas1120",
-    "DB_PASSWORD": "dimasahm12",
-    "DB_NAME": "dimc6971_Dimas_db",
+    "DB_HOST": "",
+    "DB_USER": "",
+    "DB_PASSWORD": "",
+    "DB_NAME": "",
     "BOT_TOKEN": "8540280733:AAEjOrU2kDkLsJKrhtuPZfMOuoQdAIfYB5U",
     "ADMIN_CHAT_ID": "6201552432",
     "API_KEY": "AjnQBMAhSZ4kJhqp",
