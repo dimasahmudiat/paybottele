@@ -1,15 +1,5 @@
 {
   "version": 2,
-  "functions": {
-    "api/bot.js": {
-      "maxDuration": 30,
-      "memory": 1024
-    },
-    "api/cron.js": {
-      "maxDuration": 10,
-      "memory": 512
-    }
-  },
   "builds": [
     {
       "src": "api/bot.js",
@@ -30,6 +20,11 @@
       "src": "/cron",
       "dest": "/api/cron.js",
       "methods": ["GET", "POST"]
+    },
+    {
+      "src": "/",
+      "dest": "/api/bot.js",
+      "methods": ["GET"]
     }
-  ],
- 
+  ]
+}
