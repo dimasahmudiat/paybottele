@@ -18,11 +18,6 @@
     {
       "src": "api/cron.js",
       "use": "@vercel/node"
-    },
-    {
-      "src": "package.json",
-      "use": "@vercel/static-build",
-      "config": { "distDir": "public" }
     }
   ],
   "routes": [
@@ -35,21 +30,17 @@
       "src": "/cron",
       "dest": "/api/cron.js",
       "methods": ["GET", "POST"]
-    },
-    {
-      "src": "/(.*)",
-      "dest": "/public/$1"
     }
   ],
   "env": {
-    "DB_HOST": "",
-    "DB_USER": "",
-    "DB_PASSWORD": "",
-    "DB_NAME": "",
-    "BOT_TOKEN": "",
-    "ADMIN_CHAT_ID": "",
-    "API_KEY": "",
-    "MERCHANT_CODE": "",
+    "DB_HOST": "localhost",
+    "DB_USER": "dimc6971_Dimas1120",
+    "DB_PASSWORD": "dimasahm12",
+    "DB_NAME": "dimc6971_Dimas_db",
+    "BOT_TOKEN": "8540280733:AAEjOrU2kDkLsJKrhtuPZfMOuoQdAIfYB5U",
+    "ADMIN_CHAT_ID": "6201552432",
+    "API_KEY": "AjnQBMAhSZ4kJhqp",
+    "MERCHANT_CODE": "DIMZ1945",
     "WELCOME_IMAGE": "https://dimzmods.my.id/demobot/img/contoh1.jpg",
     "NODE_ENV": "production"
   }
