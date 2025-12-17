@@ -1,0 +1,30 @@
+{
+  "functions": {
+    "api/bot.js": {
+      "maxDuration": 30
+    },
+    "api/cron.js": {
+      "maxDuration": 30
+    }
+  },
+  "rewrites": [
+    {
+      "source": "/bot",
+      "destination": "/api/bot.js"
+    },
+    {
+      "source": "/cron",
+      "destination": "/api/cron.js"
+    }
+  ],
+  "env": {
+    "DB_HOST": "@db-host",
+    "DB_USER": "@db-user",
+    "DB_PASSWORD": "@db-password",
+    "DB_NAME": "@db-name",
+    "BOT_TOKEN": "@bot-token",
+    "ADMIN_CHAT_ID": "@admin-chat-id",
+    "API_KEY": "@api-key",
+    "MERCHANT_CODE": "@merchant-code"
+  }
+}
