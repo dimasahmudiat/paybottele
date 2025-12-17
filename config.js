@@ -1,6 +1,7 @@
-// config.js - Configuration file
+// config.js - Pastikan tidak ada dependensi yang butuh Node.js 18
+
 const config = {
-  // Database Configuration (gunakan environment variables di Vercel)
+  // Database Configuration
   db: {
     host: process.env.DB_HOST || 'localhost',
     user: process.env.DB_USER || 'dimc6971_Dimas1120',
