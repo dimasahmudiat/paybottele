@@ -28,39 +28,3 @@
     }
   ]
 }
-{
-  "version": 2,
-  "builds": [
-    {
-      "src": "api/bot.js",
-      "use": "@vercel/node",
-      "config": {
-        "nodeVersion": "24.x"
-      }
-    },
-    {
-      "src": "api/cron.js",
-      "use": "@vercel/node",
-      "config": {
-        "nodeVersion": "24.x"
-      }
-    }
-  ],
-  "routes": [
-    {
-      "src": "/bot",
-      "dest": "/api/bot.js",
-      "methods": ["POST"]
-    },
-    {
-      "src": "/cron",
-      "dest": "/api/cron.js",
-      "methods": ["GET", "POST"]
-    },
-    {
-      "src": "/",
-      "dest": "/api/bot.js",
-      "methods": ["GET"]
-    }
-  ]
-}
