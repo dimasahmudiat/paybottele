@@ -32,16 +32,4 @@
       "methods": ["GET", "POST"]
     }
   ],
-  "env": {
-    "DB_HOST": "",
-    "DB_USER": "",
-    "DB_PASSWORD": "",
-    "DB_NAME": "",
-    "BOT_TOKEN": "8540280733:AAEjOrU2kDkLsJKrhtuPZfMOuoQdAIfYB5U",
-    "ADMIN_CHAT_ID": "6201552432",
-    "API_KEY": "AjnQBMAhSZ4kJhqp",
-    "MERCHANT_CODE": "DIMZ1945",
-    "WELCOME_IMAGE": "https://dimzmods.my.id/demobot/img/contoh1.jpg",
-    "NODE_ENV": "production"
-  }
-}
+ 
